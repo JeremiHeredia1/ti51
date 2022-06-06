@@ -26,13 +26,13 @@ export class Calculator extends React.Component
         <div className="Calculator">
             <h2>Celsius a Fahrenheit - Fahrenheit a Celsius </h2>
             <fieldset>
-                <legend> Scale Celsius </legend>
+                <legend> Celsius </legend>
                 <input className="input" value={celsius} onChange={this.handleCelsius} type="text"/>
                
             </fieldset>
 
             <fieldset>
-                <legend> Scale Fahrenheit </legend>
+                <legend>Fahrenheit </legend>
                 <input value={fahrenheit} onChange={this.handleFahrenheit} />
             </fieldset>
 

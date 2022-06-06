@@ -22,7 +22,7 @@ export function  Sumamulti() {
 
     return <>
         <div className="Operations">
-            <h2>Enter two number to add or mulplication</h2>
+            <h2>Suma y Multiplicación de dos número </h2>
             <div>
                 <input className="input" onChange={handleInput} name="one" value={number.one} type="text" />
                 <input className="input" onChange={handleInput} name="two" value={number.two} type="text" />
@@ -32,7 +32,7 @@ export function  Sumamulti() {
                 <button onClick={multi} class="btn btn-success">Multiplicar</button>
             </div>
             <div>
-                <h4>El resultado es: <span> {result} </span> </h4> 
+                <h4>Resultado: <span> {result} </span> </h4> 
             </div>
 
             <div>
